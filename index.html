@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Samuel Hinkhouse, Programmer, Designer.</title>
+  <meta name="description" content="Samuel Hinkhouse is a programmer and graphic designer. He is well versed in web design and web programming,
+  designing rich typography, brand, and layout design. "
+  <link rel="icon" href="images/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Lato:300,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?aovs">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <style>
+
+    a, a:visited, a:active {
+      font-weight: 700;
+      color: #2196F3;
+    }
+    html, body {
+      font-family: 'Lato',sans-serif;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-family: 'Roboto Slab', serif;
+    }
+    #experience, #projects, #about {
+      color: #FFF;
+      background-color: #2196F3;
+      padding: 10px 20px 10px 20px;
+    }
+    header {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background: #313131;
+      overflow: hidden;
+      z-index: 1;
+    }
+    header .faces {
+      display: flex;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .faces img {
+      display: inline-block;
+      height: 100%;
+      width: 511px;
+
+    }
+    header span {
+      font-family: 'Roboto Slab', serif;
+      font-size: 48px;
+      color: white;
+      top: 60%;
+      left: 50px;
+      transform: translateY(-40%);
+      position: fixed;
+    }
+    main {
+      padding: 25px;
+      position: relative;
+      background-color: white;
+      z-index: 1;
+    }
+    nav {
+      display: inline-block;
+      position: fixed;
+      z-index: 2;
+    }
+    nav a {
+      display: block;
+      font-size: 24px;
+      text-decoration: none;
+      color: black;
+      font-family: 'Roboto Slab', serif;
+    }
+
+    nav .navigation-bar {
+      display: none;
+      position: absolute;
+      background-color: white;
+      padding: 10px;
+      z-index: 2;
+      top:78px;
+      left: 0;
+      height: 100vh;
+      width: 200px;
+    }
+
+    nav .material-icons {
+      position:fixed;
+      right: 0;
+      z-index: 2;
+      font-size: 60px;
+      padding: 15px;
+      background-color: white;
+      cursor: pointer;
+    }
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    section {
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    section.experience article {
+      display: flex;
+    }
+
+    .company-logo {
+      width: 30%;
+      display: inline;
+    }
+
+    .company-logo img {
+      width: 200px;
+      height: auto;
+      margin: 25px;
+    }
+
+    .experience-description {
+      width: 70%;
+      display: inline;
+    }
+
+    footer {
+      position: absolute;
+      z-index: 1;
+      color: white;
+      background-color: #313131;
+      text-align: center;
+      height: 100px;
+      width: 100vw;
+    }
+    footer p, footer .icons {
+      position: relative;
+      top: 40%;
+      transform: translateY(-60%);
+      margin: 0;
+    }
+
+    footer .icons a  {
+      text-decoration: none;
+    }
+
+    footer span.socicon {
+      font-size: 24px;
+    }
+    @media only screen and (max-width: 920px) {
+      .company-logo, .experience-description {
+        width: 100%;
+        display: block;
+      }
+      section.experience article {
+        display: block;
+      }
+    }
+  </style>
+  <!-- <script src="app.js"></script> -->
+</head>
+<body>
+  <nav>
+    <i class="material-icons" style="display: none">menu</i>
+    <div class="navigation-bar">
+      <a href="#about">About Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#">Link</a>
+    </div>
+
+  </nav>
+
+  <header>
+    <div class="faces">
+      <img src="images/Sam-13.jpg" />
+      <img src="images/Sam-4.jpg" />
+      <img src="images/Sam-5.jpg" />
+      <img src="images/Sam-15.jpg" />
+    </div>
+    <span>Samuel Hinkhouse, Programmer, Designer.</span>
+  </header>
+  <main>
+    <section>
+      <h2 id="about">About Me</h2>
+      <p>
+        Samuel Hinkhouse is a senior at Graceland University, pursuing his Bachelor of Science in Computer Science & Information Technology and Web Design. He is on track to graduate at the end of April 2018. Sam enjoys making new typography as a hobby, playing video games, making new playlists on Spotify, and spending time with friends and family.
+      </p>
+      <p>
+        When Sam is finished with his degree, he plans on finding a job in Web Development. He is also thinking about pursuing an MA or MS in Web Design or Information Technology. Below, you can find information on Sam’s work experience as well as projects he has worked on. You can find both his CSIT portfolio and Graphic Design portfolio below.
+        Check out his favorite music on <a href="https://open.spotify.com/user/1251089">Spotify</a>!
+      </p>
+    </section>
+    <section class="experience">
+      <h2 id="experience">Experience</h2>
+      <article>
+        <div class="company-logo">
+          <img src="images/gulogo.jpg" alt="Graceland University Logo" />
+        </div>
+        <div class="experience-description">
+          <h3>Graceland University</h3>
+          <p>During my three years as a Student Technology Assistant, I have assisted in the implementation of Linux based and Android based digital
+            signage systems on campus. I have recorded lectures and edited them for professors. I have assisted students with diagnosing computer
+            errors and installing software for them. In addition, I go around to classrooms and do repairs on projectors; replacing their cabling,
+            making sure they are on the correct settings, and replacing projector light bulbs.</p>
+          </div>
+        </article><hr />
+        <article>
+          <div class="company-logo">
+            <img src="images/smithlogo.png" alt="Smith & Associates Logo" />
+          </div>
+          <div class="experience-description">
+            <h3>Smith & Associates</h3>
+            <p>At Smith & Associates, I was blessed with an opportunity to have an internship in Houston! They taught me how to use AngularJS for frontend development. I worked on a module of their customer relationship management system called Partmatch. After finishing AngularJS tutorials, I started to work on a Java back end solution to access information from their databases using RESTful APIs with CRUD principles. A majority of my time was spent creating a front end for the Partmatch module using HTML, CSS, JavaScript, and the AngularJS framework. It was great experience working with them. </p>
+          </div>
+        </article><hr />
+        <article>
+          <div class="company-logo">
+            <img src="images/muscologo.jpg" alt="Musco Lighting Logo" />
+          </div>
+          <div class="experience-description">
+            <h3>Musco Lighting</h3>
+            <p>I worked for Musco Lighting for two summers, working on building wire harnesses and running product testing on wire harnesses. I constructed laser housing for the laser relays used to calibrate
+              the position of the lights and putting together brackets and plates for power devices. I also assembled surge protection devices and built yokes and cones.</p>
+            </div>
+          </article>
+        </section>
+        <section>
+          <h2 id="projects">Projects</h2>
+          <article>
+            <a href="http://alt.graceland.edu/~samuel1/PHP%20Projects/final/index.php">PHP Final</a>
+            <p>For my PHP class, I had to make a fast food website that would allow a user to sign up and see the food we offer. I also made a admin portal that allowed the manager
+              to add food and ingredients to the menu.</p>
+              <a href="http://alt.graceland.edu/~samuel1/JavaScript/weather/">Weather Project</a>
+              <p>This website allows you to view the weather via DarkSky's weather API and pulls the API through a proxy.</p>
+              <a href="http://alt.graceland.edu/~samuel1/JavaScript/memegenerator/">Meme Generator</a>
+              <p>This website allows the user to find a picture via Flickr's photo API and allows them to make a meme from it.</p>
+              <a href="http://alt.graceland.edu/~samuel1/GU4U">GU4U</a>
+              <p>This project was made during my senior Systems Development Project class. GU4U is a mentoring program for students at Graceland
+                University. This website allows them to sign up to get a mentor and receive career help.</p>
+                <a href="http://codepen.io/shinkhouse/pen/EWoMjR">HTML5 Form Validation Messages</a>
+                <p>This project shows the user all the errors for each form input field with JavaScript.</p>
+
+                <a href="https://www.behance.net/shinkhouse">Samuel Hinkhouse's Art Portfolio</a>
+                <p>This website is a external link to my Graphic Design, User Interface, and User Experience design portfolio.</p>
+
+              </article>
+            </section>
+          </main>
+          <footer>
+            <div class="icons">
+              <a href="http://www.facebook.com/shinkhouse"><span class="socicon socicon-facebook"></span></a>
+              <a href="http://www.twitter.com/shinkhouse"><span class="socicon socicon-twitter"></span></a>
+              <a href="https://www.linkedin.com/in/shinkhouse/"><span class="socicon socicon-linkedin"></span></a>
+              <a href="https://github.com/shinkhouse"><span class="socicon socicon-github"></span></a>
+              <a href="https://www.behance.net/shinkhouse"><span class="socicon socicon-behance"></span></a>
+              <a href="https://open.spotify.com/user/1251089"><span class="socicon socicon-spotify"></span></a>
+            </div>
+
+            <p>
+              Samuel Hinkhouse 	&copy; 2017
+            </p>
+          </footer>
+        </body>
+        </html>
